@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="theme-color" content="#292929" />
+    <title>OTP Authenticator</title>
+    <link rel=icon href=/favicon.ico>
+    <!--link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet"-->
+    <link rel="stylesheet" href="/index.css">
+    <link id="dark-mode" rel="stylesheet" href="/index_dark.css" disabled>
+    <script src="/main.js" defer></script>
+  </head>
+  <body>
+    <div id="header-container">
+      <div id="app-icon"></div>
+      <div id="app-name">OTP Authenticator</div>
+      <div id="more-button"></div>
+    </div>
+    <div id="calculator-container">
+      <div id="totp-label" style="margin-bottom: 0px; height: 0px;"></div>
+      <div id="totp-token-container">
+        <div id="totp-token"></div>
+        <svg id="totp-token-remaining-seconds-pie" viewBox="0 0 0.318310 0.318310">
+          <!-- r = 1 / (2 * PI) ≈ 0.159155 -->
+          <circle r="0.159155"  cx="0.159155" cy="0.159155"/>
+        </svg>
+      </div>
+      
+      <div id="input-container">
+        <div id="input-secret-container">
+          <input id="input-secret" placeholder="Secret or OTP Auth URI" type="password" autocomplete="off" autofocus>
+          
+          <div id="input-video-button"></div>
+          <label id="input-image-button" style=" display: inline-block;">
+              <input id="input-image" type="file" style="display: none;">
+          </label>
+        </div>
+        
+        <input id="input-account" placeholder="Account" style="display: none;">
+        <input id="input-issuer" placeholder="Issuer" style="display: none;">
+        <input id="input-period" type="number" placeholder="Period" style="display: none;">
+      </div>
+      
+      <div id="otpauth-qr" style="display: none;">
+        <img id="otpauth-qr-image">
+        <div id="otpauth-qr-overlay">Missing values!</div>
+      </div>
+    </div>
+    <a id="github-ref" href="https://github.com/7pub/otp-authenticator-webapp"></a>
+    <div id="app-version"></div>
+    <div id="light-switch"></div>
+    
+    <div id="input-video-dialog" style="display: none;">
+      <div id="input-video-container">
+        <video id="input-video"></video>
+      </div>
+    </div>
+    
+  </body>
+</html>
