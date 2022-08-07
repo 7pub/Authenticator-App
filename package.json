@@ -15,6 +15,9 @@
   "keywords": [],
   "author": "kachl",
   "license": "MIT",
-  "config": {}
+  "config": {},
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-forge": "^1.0.0"
   }
-
+}
