@@ -5,7 +5,8 @@
   "description": "OTPAuthenticator-myCali-Application",
   "main": "/index.js",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "node preload.js",
+    "dev": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
@@ -16,7 +17,8 @@
   "license": "MIT",
   "config": {},
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-forge start": "^"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.65",
