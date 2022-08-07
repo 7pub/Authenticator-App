@@ -18,7 +18,7 @@
   "config": {},
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
-    "electron-forge start": "^"
+    "electron-forge start": ""
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.65",
