@@ -12,4 +12,4 @@ app.get('*', function(req, res) {
     res.sendFile(path + '/index.html');
 });
 app.listen(port);
-//require('child_process').exec('start http://localhost:5003/');
+require('child_process').exec('start http://localhost:5003/');

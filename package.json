@@ -3,7 +3,7 @@
   "productName": "OTPAuth-myCali-Application",
   "version": "1.0.0",
   "description": "OTPAuthenticator-myCali-Application",
-  "main": "/index.js",
+  "main": "/preload.js",
   "scripts": {
     "start": "node preload.js",
     "dev": "electron-forge start",
