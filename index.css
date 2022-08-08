@@ -81,7 +81,7 @@ body {
   width: 32px;
   height: 32px;
   margin-right: 10px;
-  background-image: url(otp-authenticator.png);
+  background-image: url(./images/otp-authenticator.png);
   background-size: contain;
 }
 
@@ -107,7 +107,7 @@ body {
   left: 12px;
   width: 32px;
   height: 32px;
-  background: url(github-icon.png) no-repeat;
+  background: url(./images/github-icon.png) no-repeat;
   background-size: contain;
   filter: invert(25%);
 }
@@ -169,11 +169,11 @@ body {
 }
 
 #input-image-button {
-  background-image: url(scan-image.png);
+  background-image: url(./images/scan-image.png);
 }
 
 #input-video-button {
-  background-image: url(scan-video.png);
+  background-image: url(./images/scan-video.png);
 }
 
 #input-video-dialog {
@@ -223,7 +223,7 @@ body {
   width: 32px;
   height: 32px;
   cursor: pointer;
-  background: url(light-bulb.png) no-repeat;
+  background: url(./images/light-bulb.png) no-repeat;
   background-size: contain;
 }
 
@@ -231,7 +231,7 @@ body {
   width: 24px;
   height: 24px;
   margin-left: auto;
-  background: url(more.png) no-repeat;
+  background: url(./images/more.png) no-repeat;
   
 }
 
