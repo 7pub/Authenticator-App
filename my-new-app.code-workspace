@@ -1,5 +1,10 @@
 {"folders": [
         {
-            "path": ".."
+            "name": "DITCode",
+            "path": "."
+        },
+        {
+            "name": "electron-nuxt",
+            "path": "..\\electron-nuxt"
         }
     ],"settings": {}}
