@@ -1,6 +1,7 @@
 
 download
 _buk
-node_modules
+#node_modules
 _bak
 src
+node_modules
