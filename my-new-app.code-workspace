@@ -1,1 +1,5 @@
-{"folders": [{"path": ".."},{"path": "..\\..\\my-app"}],"settings": {}}
+{"folders": [
+        {
+            "path": ".."
+        }
+    ],"settings": {}}
