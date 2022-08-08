@@ -29430,7 +29430,7 @@
     ['click', 'tap'].forEach(event => {
         document.getElementById('totp-token').addEventListener(event, function () {
             copyToClipboard(this.innerText);
-            showToast("Token copied!");
+            showToast("Token kopiert!");
         }, false);
     });
     ['click', 'tap'].forEach(event => {
@@ -29441,7 +29441,7 @@
             const period = document.getElementById('input-period').value;
             const otpauthUrl = OTPAuthUrl.build(secret, account, issuer, period);
             copyToClipboard(otpauthUrl);
-            showToast("OTPAuth url copied!");
+            showToast("OTPAuth url kopiert!");
         }, false);
     });
     ['click', 'tap'].forEach(event => {
