@@ -1,5 +1,6 @@
 
-download/OTPAuth-myCali-Application.exe.zip
-_buk/my-new-app.code-workspace
+download
+_buk
 node_modules
 _bak
+src
