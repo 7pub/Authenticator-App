@@ -1,6 +1,6 @@
 {
-  "name": "otp-auth-mycali-app",
-  "productName": "OTPAuth-myCali-Application",
+  "name": "ditcode-authentikator",
+  "productName": "myCalidev-OTP-Authentikator",
   "version": "1.0.0",
   "description": "OTPAuthenticator-myCali-Application",
   "main": "/index.js",
@@ -17,8 +17,9 @@
   "license": "MIT",
   "config": {},
   "dependencies": {
+    "electron-forge": "^5.2.4",
     "electron-squirrel-startup": "^1.0.0",
-    "electron-forge start": ""
+    "express": "^4.18.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.65",
