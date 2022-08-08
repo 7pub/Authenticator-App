@@ -29242,7 +29242,7 @@
         const issuer = document.getElementById('input-issuer').value;
         const account = document.getElementById('input-account').value;
         const period = document.getElementById('input-period').value;
-        let qrMessage = 'https://qoomon.me'
+        let qrMessage = 'https://dioezese-linz.at'
         document.getElementById('otpauth-qr-overlay').style.display = '';
         if (secret && account) {
             qrMessage = OTPAuthUrl.build(secret.replace(/\s+/g, ''), account, issuer, period);
