@@ -2,8 +2,12 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="./images/mstile-150x150.png"/>
+            <square150x150logo src="/mstile-150x150.png"/>
             <TileColor>#da532c</TileColor>
+            <square70x70logo src="/dfk-linz-70.png"/>
+            <square150x150logo src="/dfk-linz-150.png"/>
+            <square310x310logo src="/dfk-linz-310.png"/>
+            <TileColor>#FFFFFF</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
