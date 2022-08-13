@@ -1,1 +1,10 @@
-{"folders": [{"path": ".."},{"path": "..\\..\\my-app"}],"settings": {}}
+{"folders": [
+        {
+            "name": "DITCode",
+            "path": "."
+        },
+        {
+            "name": "electron-nuxt",
+            "path": "\\electron-nuxt"
+        }
+    ],"settings": {}}
