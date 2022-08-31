@@ -1,5 +1,4 @@
----
----
+<table><th>DITLinz/DITCode</tH></table>
 
 ## Willkommen auf den GitHub Pages der Diözesanen IT Linz
 
