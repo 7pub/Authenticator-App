@@ -1,4 +1,4 @@
-<table><th>DITLinz/DITCode</tH></table>
+<table><th>DITLinz/DITCode/docs/index.md</tH></table>
 
 ## Willkommen auf den GitHub Pages der Diözesanen IT Linz
 
