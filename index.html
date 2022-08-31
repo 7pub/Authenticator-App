@@ -1,83 +1,84 @@
 <!doctype html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="apple-mobile-web-app-title" content="DITCode">
-    <meta name="application-name" content="DITCode">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#4b4310">
-    <meta name="theme-color" content="#292929" />
-    <title>DITCode</title>
-    <link rel="shortcut icon" href="favicon/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-    <link rel="stylesheet" href="index.css" />
-    <link id="dark-mode" rel="stylesheet" href="index_dark.css" disabled />
-    <script src="main.js" defer></script>
-    <script type="text/javascript" src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-2.1.4.min.js"></script>
-    <!--script>
-        function loadStyle(directory, files) {
-            var head = document.getElementsByTagName("head")[0]
-            var extension = '.css'
-            for (var file of files) {
-                var path = directory + file + extension
-                var link = document.createElement("link")
-                link.href = path
-                link.type = "text/css"
-                link.rel = "stylesheet"
-                head.appendChild(link)
-            }
-        }
-        (() => loadStyle('',  /***/ ['']))();
-        (() => loadStyle('',  /***/ ['', '', '', '']))();
-        (() => loadStyle('',  /***/ ['']))();
-        (() => loadStyle('',  /***/ ['']))();
-        (() => loadStyle('',  /***/ ['']))();
-    </script-->
-  </head>
-  <body>
-    <div id="header-container">
-      <div id="app-icon"></div>
-      <div id="app-name">DITCode</div>
-      <div id="more-button"></div>
-    </div>
-    <div id="calculator-container">
-      <div id="totp-label" style="margin-bottom: 0px; height: 0px;"></div>
-      <div id="totp-token-container">
-        <div id="totp-token"></div>
-        <svg id="totp-token-remaining-seconds-pie" viewBox="0 0 0.318310 0.318310">
-          <!-- r = 1 / (2 * PI) ≈ 0.159155 -->
-          <circle r="0.159155"  cx="0.159155" cy="0.159155"./>
-        </svg>
-      </div>
-      <div id="input-container">
-        <div id="input-secret-container">
-          <input id="input-secret" placeholder="Secret or OTP Auth URI" type="password" autocomplete="off" autofocus>
-          <div id="input-video-button"></div>
-          <label id="input-image-button" style=" display: inline-block;">
-              <input id="input-image" type="file" style="display: none;">
-          </label>
-        </div>
-        <input id="input-account" placeholder="Account" style="display: none;">
-        <input id="input-issuer" placeholder="Issuer" style="display: none;">
-        <input id="input-period" type="number" placeholder="Period" style="display: none;">
-      </div>
-      <div id="otpauth-qr" style="display: none;">
-        <img id="otpauth-qr-image">
-        <div id="otpauth-qr-overlay">Di&ouml;zese Linz</div>
-      </div>
-    </div>
-    <a id="github-ref" href="https://github.com/7pub/otp-authenticator-webapp"></a>
-    <div id="app-version"></div>
-    <div id="light-switch"></div>
-    <div id="input-video-dialog" style="display: none;">
-      <div id="input-video-container">
-        <video id="input-video"></video>
-      </div>
-    </div>
-  </body>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="DITCode">
+<meta name="application-name" content="DITCode">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#4b4310">
+<meta name="theme-color" content="#292929" />
+<title>DITCode</title>
+<link rel="shortcut icon" href="favicon/favicon.ico">
+<link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+<link rel="stylesheet" href="index.css" />
+<link id="dark-mode" rel="stylesheet" href="index_dark.css" disabled />
+<script src="main.js" defer></script>
+<script type="text/javascript" src="https://7pub.github.io/cdn-gw/vendor/jquery/js/jquery-2.1.4.min.js"></script>
+<!--script>
+  function loadStyle(directory, files) {
+      var head = document.getElementsByTagName("head")[0]
+      var extension = '.css'
+      for (var file of files) {
+          var path = directory + file + extension
+          var link = document.createElement("link")
+          link.href = path
+          link.type = "text/css"
+          link.rel = "stylesheet"
+          head.appendChild(link)
+      }
+  }
+  (() => loadStyle('',  /***/ ['']))();
+  (() => loadStyle('',  /***/ ['', '', '', '']))();
+  (() => loadStyle('',  /***/ ['']))();
+  (() => loadStyle('',  /***/ ['']))();
+  (() => loadStyle('',  /***/ ['']))();
+</script-->
+</head>
+<body>
+<table><th>DITLinz/DITCode/index.html</tH></table>
+<div id="header-container">
+<div id="app-icon"></div>
+<div id="app-name">DITCode</div>
+<div id="more-button"></div>
+</div>
+<div id="calculator-container">
+<div id="totp-label" style="margin-bottom: 0px; height: 0px;"></div>
+<div id="totp-token-container">
+<div id="totp-token"></div>
+<svg id="totp-token-remaining-seconds-pie" viewBox="0 0 0.318310 0.318310">
+<!-- r = 1 / (2 * PI) ≈ 0.159155 -->
+<circle r="0.159155"  cx="0.159155" cy="0.159155"./>
+</svg>
+</div>
+<div id="input-container">
+<div id="input-secret-container">
+<input id="input-secret" placeholder="Secret or OTP Auth URI" type="password" autocomplete="off" autofocus>
+<div id="input-video-button"></div>
+<label id="input-image-button" style=" display: inline-block;">
+<input id="input-image" type="file" style="display: none;">
+</label>
+</div>
+<input id="input-account" placeholder="Account" style="display: none;">
+<input id="input-issuer" placeholder="Issuer" style="display: none;">
+<input id="input-period" type="number" placeholder="Period" style="display: none;">
+</div>
+<div id="otpauth-qr" style="display: none;">
+<img id="otpauth-qr-image">
+<div id="otpauth-qr-overlay">Di&ouml;zese Linz</div>
+</div>
+</div>
+<a id="github-ref" href="https://github.com/7pub/otp-authenticator-webapp"></a>
+<div id="app-version"></div>
+<div id="light-switch"></div>
+<div id="input-video-dialog" style="display: none;">
+<div id="input-video-container">
+<video id="input-video"></video>
+</div>
+</div>
+</body>
 </html>
