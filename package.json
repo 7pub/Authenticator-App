@@ -3,7 +3,7 @@
   "productName": "myCalidev-OTP-Authentikator",
   "version": "1.0.0",
   "description": "OTPAuthenticator-myCali-Application",
-  "main": "/preload.js",
+  "main": "./assets/preload.js",
   "scripts": {
     "start": "node preload.js",
     "package": "electron-forge package",
