@@ -1,8 +1,8 @@
 {
-  "name": "ditcode-authentikator",
-  "productName": "myCalidev-OTP-Authentikator",
+  "name": "teamcode",
+  "productName": "OTP-Authentikator",
   "version": "1.0.0",
-  "description": "OTPAuthenticator-myCali-Application",
+  "description": "Share OTP Access",
   "main": "./assets/preload.js",
   "scripts": {
     "start": "node preload.js",
