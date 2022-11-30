@@ -1,5 +1,5 @@
-# TEAM CODE
-DITCode Web.Application | myCali.app
+# 2FACodes
+Web.Application | myCali.app
 
 <div align="right">
 <p></p>
